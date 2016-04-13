@@ -1,10 +1,8 @@
 /* --- 
-COLORES Y TIPOGRAFIA 
-TAHOMA
+COLORES 
 naranjo: #E14335;
 naranjo claro: #E87C67;
 ---- */
-
 
 /* --- PORTADA ---- */
 
@@ -25,9 +23,76 @@ naranjo claro: #E87C67;
 
 
 
-/* --- IMAGENES ---- */
+/* --- GALERIA ---- */
 
+div.galeria {
+	background-color: #222222;
+	color: #C0C0C0;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.galeria .col-md-4 {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.galeria p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.galeria img {
+	width: 100%;
+}
+
+div.github {
+	background-color: #C0C0C0;
+	color: #222222;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	margin: 0 auto;
+	font-size: 12px;
+	padding-top: 5px;
+	margin: 10px auto;
+}
+
+.github:hover {
+	background-color: #E14335;
+	cursor: pointer;
+	color: white;
+}
 
 
 
 /* --- CONTACTAME ---- */
+
+div.contactame {
+	padding: 50px 0;
+}
+
+.contactame i {
+	font-size: 40px;
+	display: inline-block;
+}
+
+.contactame a {
+	display: block;
+	color: #E14335;
+}
+
+.contactame hr {
+	width: 10%; 
+	color: #E14335;
+	height: 4px; 
+	background-color: #E14335;
+}
+
+.contactame p {
+	margin-bottom: 20px;
+}
