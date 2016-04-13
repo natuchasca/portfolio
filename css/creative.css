@@ -57,8 +57,8 @@ div.github {
 	height: 30px;
 	border-radius: 20px;
 	margin: 0 auto;
-	font-size: 12px;
-	padding-top: 5px;
+	font-size: 10px;
+	padding-top: 8px;
 	margin: 10px auto;
 }
 
@@ -95,4 +95,5 @@ div.contactame {
 
 .contactame p {
 	margin-bottom: 20px;
+	white-space: pre-wrap;
 }
