@@ -27,7 +27,7 @@ naranjo claro: #E87C67;
 
 div.galeria {
 	background-color: #222222;
-	color: #C0C0C0;
+	color: white;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 20px;
@@ -50,7 +50,7 @@ div.galeria {
 }
 
 div.github {
-	background-color: #C0C0C0;
+	background-color: white;
 	color: #222222;
 	text-align: center;
 	width: 120px;
