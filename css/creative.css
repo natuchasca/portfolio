@@ -1,3 +1,38 @@
+.servicios {
+	margin: 0 150px;
+}
+
+.servicios h4 {
+	font-weight: lighter;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+.linea {
+	width: 5%;
+	background-color: #E14335; 
+	height: 2px;
+}
+
+
+.servi2 i {
+	color: #E14335;
+	font-size: 40px;
+	margin-left: 75px;
+}
+
+.servi1 h5 {
+	font-family: Tahoma;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.servi1 p {
+	color: #BFBFBF;
+	font-size: 11px;
+	text-align: center;
+}
+
 /* --- 
 naranjo:#E14335;
 naranjo claro: #E87C67;
