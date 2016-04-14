@@ -1,14 +1,92 @@
 /* --- 
-COLORES 
-naranjo: #E14335;
+naranjo:#E14335;
 naranjo claro: #E87C67;
 ---- */
 
 /* --- PORTADA ---- */
+.portada {
+	background: url("../img/header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+.text-center {
+	text-align: center;
+}
+.naranjo {
+	background-color: #E14335;
+}
+.mi-port {
+	opacity: 0.5;
+	display: inline-block;
+	font-size: 15px;
+}
+.menu1 li {
+	list-style: none;
+	display: inline-block;
+	padding-top: 3%;
+}
+.menu1 a {
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+	opacity: 0.5;
+}
+.menu1 a:hover {
+	color: black;
+	opacity: 0.5;
+}
+.portfolio {
+	margin-top: 15%;
+	margin-bottom: 18%;
+}
+.hola-mi-nombre {
+	font-size: 40px;
+	padding: 0% 22%;
+}
+.hr-port {
+	width: 10%;
+	height: 4px;
+}
+.estas-interesado {
+	opacity: 0.5;
+	padding: 0% 25%;
 
-
+}
+.conocer {
+	border-radius: 20px;
+	background-color: #E14335;
+	margin-top: 3%;
+}
+/*--- fin portada---*/
 
 /* --- SOBRE MI ---- */
+.menu2 a {
+	opacity: 0.5;
+	color: #E14335;
+}
+.menu2 a:hover {
+	color: black;
+	opacity: 0.5;
+}
+.mi-port2 {
+	color: #E14335;
+	opacity: 0.5;
+	font-size: 15px;
+}
+.naranjo-claro {
+	background-color: #E87C67;
+}
+.sobre-mi {
+	padding: 0% 10%;
+	font-size: 14px;
+	color: white;
+    padding-bottom: 5%;
+}
+.sobre {
+	font-size: 30px;
+}
 
 
 
@@ -18,7 +96,6 @@ naranjo claro: #E87C67;
 
 
 
-/* --- PORTADA ---- */
 
 
 
