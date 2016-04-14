@@ -3,6 +3,15 @@ naranjo:#E14335;
 naranjo claro: #E87C67;
 ---- */
 
+hr.naranjo {
+	width: 40px; 
+	color: #E14335;
+	height: 3px; 
+	background-color: #E14335;
+	border: none;
+}
+
+
 /* --- PORTADA ---- */
 .portada {
 	background: url("../img/header.jpg");
@@ -26,6 +35,7 @@ naranjo claro: #E87C67;
 	list-style: none;
 	display: inline-block;
 	padding-top: 3%;
+	margin-left: 10px;
 }
 .menu1 a {
 	color: white;
@@ -34,9 +44,11 @@ naranjo claro: #E87C67;
 	opacity: 0.5;
 }
 .menu1 a:hover {
-	color: black;
-	opacity: 0.5;
+	color: white;
+	font-weight: bold;
+	opacity: 100;
 }
+
 .portfolio {
 	margin-top: 15%;
 	margin-bottom: 18%;
@@ -45,10 +57,7 @@ naranjo claro: #E87C67;
 	font-size: 40px;
 	padding: 0% 22%;
 }
-.hr-port {
-	width: 10%;
-	height: 4px;
-}
+
 .estas-interesado {
 	opacity: 0.5;
 	padding: 0% 25%;
@@ -67,9 +76,10 @@ naranjo claro: #E87C67;
 	color: #E14335;
 }
 .menu2 a:hover {
-	color: black;
+	color: #A65624;
 	opacity: 0.5;
 }
+
 .mi-port2 {
 	color: #E14335;
 	opacity: 0.5;
@@ -79,21 +89,53 @@ naranjo claro: #E87C67;
 	background-color: #E87C67;
 }
 .sobre-mi {
-	padding: 0% 10%;
+	padding: 0% 6%;
 	font-size: 14px;
 	color: white;
     padding-bottom: 5%;
 }
-.sobre {
-	font-size: 30px;
+
+h3.sobre {
+	margin-top: 50px;
 }
 
-
-
+hr.hr-port {
+	width: 40px; 
+	color: white;
+	height: 3px; 
+	background-color: white;
+	border: none;
+}
 
 /* --- SERVICIOS ---- */
 
+.servicios {
+	margin: 0 150px;
+	padding: 50px 0;
+}
 
+.servicios h3 {
+	text-align: center;
+}
+
+
+.servi2 i {
+	color: #E14335;
+	font-size: 40px;
+	margin-left: 75px;
+}
+
+.servi1 h5 {
+	font-family: Tahoma;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.servi1 p {
+	color: #BFBFBF;
+	font-size: 11px;
+	text-align: center;
+}
 
 
 
@@ -161,13 +203,6 @@ div.contactame {
 .contactame a {
 	display: block;
 	color: #E14335;
-}
-
-.contactame hr {
-	width: 10%; 
-	color: #E14335;
-	height: 4px; 
-	background-color: #E14335;
 }
 
 .contactame p {
