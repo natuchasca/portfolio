@@ -1147,7 +1147,7 @@ img {
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 2px;
+  border: 0;
   border-top: 1px solid #eee;
 }
 .sr-only {
@@ -6239,8 +6239,8 @@ button.close {
 }
 .carousel {
   position: relative;
-}.carousel-inner
- {
+}
+.carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
